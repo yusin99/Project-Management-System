@@ -4,7 +4,7 @@
 
 *,
 *::before,
-*::after{
+*::after {
   box-sizing: border-box;
 }
 
@@ -16,6 +16,5 @@ body,
   width: 100%;
   @apply text-sm;
   @apply bg-gray-500;
-
-
+  @apply text-gray-500;
 }
