@@ -50,7 +50,7 @@ function Navbar() {
           )}{" "}
         </button>
         <Link
-          href="/"
+          href="/settings"
           className={
             isDarkMode
               ? `h-min w-min rounded p-2 dark:hover:bg-gray-700`
