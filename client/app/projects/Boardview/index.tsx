@@ -16,7 +16,7 @@ type BoardProps = {
 };
 const taskStatus = ["To Do", "Work In Progress", "Under Review", "Completed"];
 
-const Boardview = ({ id, setIsModalNewTaskOpen }: BoardProps) => {
+const BoardView = ({ id, setIsModalNewTaskOpen }: BoardProps) => {
   const [updateTaskStatus] = useUpdateTaskStatusMutation();
 
   const {
@@ -260,4 +260,4 @@ type TaskColumnProps = {
   };
 
 
-export default Boardview;
+export default BoardView;
